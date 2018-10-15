@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import { Router } from 'react-router-dom';
+import Auth from './components/auth';
 import './App.css';
 
 class App extends Component {
@@ -7,7 +8,6 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
@@ -20,6 +20,9 @@ class App extends Component {
             Learn React
           </a>
         </header>
+        <div>
+          <Router exact path='/auth/:type' component={Auth}/>
+        </div>
       </div>
     );
   }
