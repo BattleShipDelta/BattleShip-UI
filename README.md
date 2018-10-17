@@ -28,6 +28,12 @@ Front end portion of the BattleShip Delta App.
 ## Step 6
 
 ### WireFrames
+### Mobile View
+![DeltaV 401 project whiteboard](/WhiteBoardPictures/mobileOne.PNG)
+
+![DeltaV 401 project whiteboard](/WhiteBoardPictures/mobileTwo.PNG)
+
+### WireFrames Desktop View
 ![DeltaV 401 project whiteboard](/WhiteBoardPictures/HOMEPAGE_WIREFRAME.PNG)
 
 ![DeltaV 401 project whiteboard](/WhiteBoardPictures/aboutpage.PNG)
